@@ -1,11 +1,205 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alivio Сторінка</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: white;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      header .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #5ba16d;
+      }
+      header nav {
+        display: flex;
+        align-items: center;
+      }
+      header nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+      }
+      header nav button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #5ba16d;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .hero {
+        background-image: url("your-hero-image-url.jpg");
+        background-size: cover;
+        background-position: center;
+        color: #333;
+        text-align: left;
+        padding: 80px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .hero-text {
+        max-width: 50%;
+      }
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      .hero p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .hero button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #5ba16d;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .content {
+        padding: 50px 40px;
+        text-align: center;
+      }
+      .content h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+      }
+      .steps {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+      }
+      .step {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .step h3 {
+        font-size: 24px;
+        color: #5ba16d;
+        margin-bottom: 10px;
+      }
+      .step p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+      }
+      .testimonial {
+        background-color: #f5f5f5;
+        padding: 50px 40px;
+        text-align: center;
+      }
+      .testimonial img {
+        border-radius: 50%;
+        max-width: 150px;
+        margin-bottom: 20px;
+      }
+      .testimonial h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 40px;
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Alivio</div>
+      <nav>
+        <a href="#">Чому Alivio</a>
+        <a href="#">Рішення</a>
+        <a href="#">Спільнота</a>
+        <a href="#">Ціни</a>
+        <a href="#">Увійти</a>
+        <button>Почати пробний період</button>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Будьте усвідомлені, Керуйте добре.</h1>
+        <p>
+          Кожен переживає стрес по-різному. Дозвольте Alivio провести вас через
+          персоналізований журнал, щоб подолати ваш стрес.
+        </p>
+        <button>Знайти свій шлях</button>
+      </div>
+      <img src="photo.png" alt="Hero Image" style="max-width: 40%" />
+    </div>
+    <div class="content">
+      <h2>Зрозумійте і звільніть стрес у 3 кроки</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>01 Персоналізуйте</h3>
+          <p>
+            Пройдіть коротке опитування про те, як ви висловлюєте себе, що вас
+            захоплює і що змушує вас відчувати, що ви на правильному шляху.
+            Таким чином, ми можемо повністю персоналізувати ваш журнал.
+          </p>
+          <img src="images.jpeg" alt="Step 1 Image" />
+        </div>
+        <div class="step">
+          <h3>02 Пишіть і Розумійте</h3>
+          <p>
+            Пишіть, малюйте, розмірковуйте, розумійте. Alivio проведе вас через
+            запитання і допоможе керувати вашим стресом.
+          </p>
+          <img src="images1.jpeg" alt="Step 2 Image" />
+        </div>
+        <div class="step">
+          <h3>03 Alivio!</h3>
+          <p>
+            Тепер ви усвідомлені і маєте спосіб керувати і долати свій стрес.
+            Чого ви чекаєте? Alivio сьогодні!
+          </p>
+          <img src="images2.jpeg" alt="Step 3 Image" />
+        </div>
+      </div>
+    </div>
+    <div class="testimonial">
+      <h2>Давайте почуємо успішну історію Кайли</h2>
+      <p>
+        Дізнайтеся, наскільки добре працює Alivio у житті реального клієнта.
+      </p>
+      <img src="images3.png" alt="Kayla" />
+      <p>Відео відгуку Кайли тут</p>
+      <button>Почнемо</button>
+    </div>
+    <footer>
+      <div>
+        <a href="#">Alivio</a>
+        <a href="#">Чому Alivio</a>
+        <a href="#">Рішення</a>
+        <a href="#">Спільнота</a>
+        <a href="#">Ціни</a>
+      </div>
+    </footer>
+  </body>
 </html>
